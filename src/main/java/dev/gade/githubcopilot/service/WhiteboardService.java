@@ -24,7 +24,5 @@ public class WhiteboardService {
         if (n <= 1) return n;
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
-
-    //write a method that will return the number of vowels in
-
+    //w
 }
