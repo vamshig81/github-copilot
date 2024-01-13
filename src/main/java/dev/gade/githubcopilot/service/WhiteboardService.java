@@ -1,7 +1,7 @@
 package dev.gade.githubcopilot.service;
 
 public class WhiteboardService {
-    //is polyndrome?
+    //is fibonacci
     public boolean isPolyndrome(String str) {
         return str.equals(new StringBuilder(str).reverse().toString());
     }
@@ -24,5 +24,6 @@ public class WhiteboardService {
         if (n <= 1) return n;
         return fibonacci(n - 1) + fibonacci(n - 2);
     }
-    //w
+    //write polyndrom
+
 }
